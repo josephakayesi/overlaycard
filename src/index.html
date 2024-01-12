@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple Card Menu Animation</title>
+    <!-- Google Fonts for Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS Stylesheet folder path -->
+    <link rel="stylesheet" href="settings.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <div class="cursor"></div>
+
+      <div class="modal">
+        <div class="modal_wrapper">
+          <div class="modal_close">&#x2715;</div>
+
+          <div class="modal_list">
+            <div class="modal_list_item">
+              <h2 class="modal_list_item_title">Productivity</h2>
+              <p class="modal_list_item_paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                eligendi ab explicabo recusandae illum dolor voluptatum aut
+                nesciunt repellendus animi corporis ratione dolorum, dicta sunt
+                laudantium nostrum?
+              </p>
+            </div>
+
+            <div class="modal_list_item">
+              <h2 class="modal_list_item_title">Scalability</h2>
+              <p class="modal_list_item_paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                eligendi ab explicabo recusandae illum dolor voluptatum aut
+                nesciunt repellendus animi corporis ratione dolorum, dicta sunt
+                laudantium nostrum?
+              </p>
+            </div>
+
+            <div class="modal_list_item">
+              <h2 class="modal_list_item_title">Flexibility</h2>
+              <p class="modal_list_item_paragraph">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                eligendi ab explicabo recusandae illum dolor voluptatum aut
+                nesciunt repellendus animi corporis ratione dolorum, dicta sunt
+                laudantium nostrum?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal_overlay"></div>
+      </div>
+
+      <div class="card">
+        <div class="card_wrapper">
+          <div class="card_text">
+            <div>
+              <span>Discover More</span>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="lucide lucide-arrow-up-right"
+              >
+                <path d="M7 7h10v10" />
+                <path d="M7 17 17 7" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="hero_wrapper">
+          <div class="hero_title">Alliance</div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
